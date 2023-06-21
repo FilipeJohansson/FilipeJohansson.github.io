@@ -1,0 +1,32 @@
+#profile-picture {
+    border-radius: 100%;
+    width: 13rem;
+
+    -webkit-animation: breathing 3s infinite;
+    animation: breathing 3s infinite;
+}
+
+@keyframes breathing {
+    50% {
+        box-shadow: 0 0 15px rgb(83, 83, 83);
+    }
+}
+
+.blockquote {
+    color: var(--font-color);
+}
+
+.blockquote #name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.blockquote-link {
+    color: var(--blockquote-footer);
+    text-decoration: none;
+}
+
+.blockquote-link:hover {
+    color: var(--blockquote-footer);
+    text-decoration: underline;
+}
